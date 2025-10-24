@@ -47,7 +47,6 @@
       content:"▼"; position:absolute; right:10px; top:9px;
       font-size:10px; color:#fff; pointer-events:none;
     }
-
     main{max-width:680px;margin:0 auto;padding:0 20px 80px;}
     h2{
       font-size:19px;margin:28px 0 10px;color:var(--accent);font-weight:600;
@@ -55,7 +54,6 @@
     p{font-size:15px;color:var(--body);line-height:1.6;margin-bottom:14px;}
     ul{padding-left:20px;color:var(--body);margin:0 0 14px}
     li{margin-bottom:10px;font-size:15px;line-height:1.5;}
-
     footer{
       text-align:center;color:#778196;font-size:13px;padding:40px 0 20px;
       border-top:1px solid rgba(255,255,255,.06);
@@ -67,9 +65,15 @@
   <header>
     <div class="language-select">
       <select id="langSelect" aria-label="Language">
-        <option value="en">EN</option>
-        <option value="ru">RU</option>
-        <option value="uk">UK</option>
+        <option value="en">English</option>
+        <option value="uk">Українська</option>
+        <option value="cs">Čeština</option>
+        <option value="fr">Français</option>
+        <option value="de">Deutsch</option>
+        <option value="it">Italiano</option>
+        <option value="pl">Polski</option>
+        <option value="ru">Русский</option>
+        <option value="es">Español</option>
       </select>
     </div>
 
@@ -187,6 +191,228 @@
         agree: "By using Pilik – Medication Tracker, you agree to this Privacy Policy.",
         footer: "© 2025 Pilik – Medication Tracker. All rights reserved."
       },
+      uk: {
+        title: "Політика конфіденційності",
+        effective: "Дата набуття чинності: 16 жовтня 2025 р.",
+        intro:
+          'Ми дуже серйозно ставимося до вашої приватності. Ця Політика пояснює, як <b>Pilik – трекер прийому ліків</b> обробляє вашу інформацію. Ми гарантуємо прозорість і захист ваших даних.',
+        s1t: "1. Які дані ми не збираємо",
+        s1p:
+          "Pilik <b>не збирає, не зберігає і не передає</b> жодні персональні дані. Додаток не потребує створення облікового запису, вказання імені, e-mail тощо.",
+        s2t: "2. Локальне зберігання даних",
+        s2p:
+          "Усі розклади, нагадування та нотатки зберігаються <b>лише на вашому пристрої</b>. Дані не передаються на сервери та не синхронізуються з хмарою. Ви можете видалити всі дані, видаливши застосунок з пристрою.",
+        s3t: "3. Без підключення до інтернету",
+        s3p:
+          "Pilik працює повністю офлайн. Застосунок не виконує синхронізацію, резервне копіювання і не надсилає дані третім сторонам.",
+        s4t: "4. Без трекінгу та аналітики",
+        s4p:
+          "Ми не використовуємо аналітичні сервіси, сторонні SDK або технології відстеження. Додаток не збирає поведінкові метрики чи ідентифікатори пристрою.",
+        s5t: "5. Сповіщення",
+        s5p:
+          "Pilik використовує локальні сповіщення для нагадувань у встановлений вами час. Ці нагадування створюються та обробляються лише на пристрої і не проходять через зовнішні сервери.",
+        s6t: "6. Дозволи",
+        s6p: "Застосунок може запитати обмежені дозволи:",
+        s6list: ["<b>Сповіщення</b> — для надсилання локальних нагадувань про прийом ліків."],
+        s6p2:
+          "Усі дозволи необов’язкові та повністю контролюються вами у налаштуваннях пристрою.",
+        s7t: "7. Конфіденційність дітей",
+        s7p:
+          "Pilik підходить користувачам будь-якого віку та свідомо не збирає персональні дані — ні у дітей, ні у дорослих.",
+        s8t: "8. Зміни цієї Політики",
+        s8p:
+          "Усі зміни буде відображено в цьому документі. Ми не вноситимемо правок, що знижують рівень захисту вашої приватності, без вашої згоди.",
+        s9t: "9. Контакти",
+        s9p:
+          "З питаннями щодо приватності звертайтесь: <b>pilik.medtracker@gmail.com</b>",
+        agree: "Користуючись Pilik, ви погоджуєтеся з цією Політикою конфіденційності.",
+        footer: "© 2025 Pilik – трекер прийому ліків. Усі права захищено."
+      },
+      cs: {
+        title: "Zásady ochrany osobních údajů",
+        effective: "Datum účinnosti: 16. října 2025",
+        intro:
+          'Vaše soukromí je pro nás velmi důležité. Tyto Zásady vysvětlují, jak <b>Pilik – sledovač užívání léků</b> nakládá s informacemi. Dbáme na ochranu vašeho soukromí a transparentnost.',
+        s1t: "1. Jaké údaje neshromažďujeme",
+        s1p:
+          "Pilik <b>neshromažďuje, neukládá ani nesdílí</b> žádné osobní údaje. Aplikace nevyžaduje účet, jméno, e-mail ani jiné osobní informace.",
+        s2t: "2. Lokální ukládání dat",
+        s2p:
+          "Veškeré rozvrhy, připomínky a poznámky jsou uloženy <b>lokálně ve vašem zařízení</b>. Data nikdy neopouštějí váš telefon a nejsou odesílána na servery či do cloudu. Všechna data můžete odstranit odinstalováním aplikace.",
+        s3t: "3. Bez připojení k internetu",
+        s3p:
+          "Pilik funguje zcela offline. Nepoužívá internet k synchronizaci, zálohování ani k odesílání dat třetím stranám.",
+        s4t: "4. Žádné sledování ani analytika",
+        s4p:
+          "Nepoužíváme analytické nástroje, SDK třetích stran ani sledovací technologie. Aplikace nesleduje chování uživatele ani identifikátory zařízení.",
+        s5t: "5. Oznámení",
+        s5p:
+          "Pilik používá místní oznámení pro připomenutí v čase, který si nastavíte. Tato oznámení jsou vytvářena a spravována pouze ve vašem zařízení.",
+        s6t: "6. Oprávnění",
+        s6p: "Aplikace může požádat o omezená oprávnění:",
+        s6list: ["<b>Oznámení</b> – pro lokální připomínky užití léků."],
+        s6p2:
+          "Oprávnění jsou volitelná a spravujete je v nastavení zařízení.",
+        s7t: "7. Ochrana dětí",
+        s7p:
+          "Aplikace je vhodná pro uživatele všech věkových kategorií a vědomě neshromažďuje osobní údaje.",
+        s8t: "8. Změny zásad",
+        s8p:
+          "Případné změny budou uvedeny v tomto dokumentu. Bez vašeho souhlasu nebudeme snižovat úroveň ochrany soukromí.",
+        s9t: "9. Kontakt",
+        s9p:
+          "Dotazy k ochraně soukromí posílejte na: <b>pilik.medtracker@gmail.com</b>",
+        agree: "Používáním aplikace Pilik souhlasíte s těmito Zásadami ochrany osobních údajů.",
+        footer: "© 2025 Pilik – sledovač užívání léků. Všechna práva vyhrazena."
+      },
+      fr: {
+        title: "Politique de confidentialité",
+        effective: "Date d’effet : 16 octobre 2025",
+        intro:
+          'Votre vie privée est essentielle pour nous. Cette politique explique comment <b>Pilik – suivi de prise de médicaments</b> traite vos informations. Nous garantissons transparence et protection de vos données.',
+        s1t: "1. Données que nous ne collectons pas",
+        s1p:
+          "Pilik ne <b>collecte, n’enregistre ni ne partage</b> aucune donnée personnelle. L’app ne demande pas de compte, de nom, d’e-mail ou d’autres informations.",
+        s2t: "2. Stockage local des données",
+        s2p:
+          "Tous les plannings, rappels et notes sont stockés <b>localement sur votre appareil</b>. Vos données ne quittent jamais votre téléphone et ne sont pas transmises à des serveurs externes. Vous pouvez tout supprimer en désinstallant l’application.",
+        s3t: "3. Aucune connexion Internet requise",
+        s3p:
+          "Pilik fonctionne entièrement hors ligne. Aucune synchronisation, sauvegarde ni partage de données avec des tiers.",
+        s4t: "4. Pas de suivi ni d’analytique",
+        s4p:
+          "Nous n’utilisons aucun outil d’analyse, SDK tiers ou technologie de suivi. L’app ne suit pas votre comportement ni les identifiants de l’appareil.",
+        s5t: "5. Notifications",
+        s5p:
+          "Pilik utilise des notifications locales pour vous rappeler vos prises aux horaires définis. Elles sont gérées uniquement sur votre appareil.",
+        s6t: "6. Autorisations",
+        s6p: "L’app peut demander des autorisations limitées :",
+        s6list: ["<b>Notifications</b> – pour envoyer des rappels locaux de prise de médicaments."],
+        s6p2:
+          "Ces autorisations sont facultatives et contrôlées dans les réglages de votre appareil.",
+        s7t: "7. Confidentialité des enfants",
+        s7p:
+          "Pilik convient à tous les âges et ne collecte sciemment aucune donnée personnelle.",
+        s8t: "8. Modifications de cette politique",
+        s8p:
+          "Toute modification sera indiquée ici. Nous ne réduirons pas votre niveau de protection sans votre consentement.",
+        s9t: "9. Contact",
+        s9p:
+          "Pour toute question, contactez-nous à : <b>pilik.medtracker@gmail.com</b>",
+        agree: "En utilisant Pilik, vous acceptez cette politique de confidentialité.",
+        footer: "© 2025 Pilik – suivi de prise de médicaments. Tous droits réservés."
+      },
+      de: {
+        title: "Datenschutzerklärung",
+        effective: "Gültig ab: 16. Oktober 2025",
+        intro:
+          'Der Schutz Ihrer Daten ist uns wichtig. Diese Erklärung erläutert, wie <b>Pilik – Medikamenten-Tracker</b> mit Informationen umgeht. Wir garantieren Transparenz und Datenschutz.',
+        s1t: "1. Welche Daten wir nicht erheben",
+        s1p:
+          "Pilik <b>erhebt, speichert oder teilt</b> keine personenbezogenen Daten. Es ist kein Konto, kein Name, keine E-Mail erforderlich.",
+        s2t: "2. Lokale Datenspeicherung",
+        s2p:
+          "Alle Pläne, Erinnerungen und Notizen werden <b>lokal auf Ihrem Gerät</b> gespeichert. Ihre Daten verlassen Ihr iPhone nicht und werden nicht an Server oder Cloud-Dienste übermittelt. Durch Löschen der App entfernen Sie alle Daten.",
+        s3t: "3. Keine Internetverbindung erforderlich",
+        s3p:
+          "Pilik funktioniert vollständig offline. Keine Synchronisierung, kein Backup, keine Weitergabe an Dritte.",
+        s4t: "4. Kein Tracking oder Analytics",
+        s4p:
+          "Wir verwenden keine Analyse-Tools, keine Drittanbieter-SDKs und keine Tracking-Technologien. Die App überwacht kein Nutzungsverhalten und keine Geräte-IDs.",
+        s5t: "5. Mitteilungen",
+        s5p:
+          "Pilik nutzt lokale Mitteilungen, um an Einnahmen zu erinnern. Diese werden ausschließlich auf Ihrem Gerät erstellt und verwaltet.",
+        s6t: "6. Berechtigungen",
+        s6p: "Die App kann begrenzte Berechtigungen anfragen:",
+        s6list: ["<b>Mitteilungen</b> – für lokale Einnahmeerinnerungen."],
+        s6p2:
+          "Berechtigungen sind optional und können in den Geräteeinstellungen verwaltet werden.",
+        s7t: "7. Datenschutz für Kinder",
+        s7p:
+          "Pilik eignet sich für alle Altersgruppen und erhebt wissentlich keine personenbezogenen Daten.",
+        s8t: "8. Änderungen dieser Erklärung",
+        s8p:
+          "Änderungen werden in diesem Dokument veröffentlicht. Ohne Ihre Zustimmung verringern wir den Datenschutz nicht.",
+        s9t: "9. Kontakt",
+        s9p:
+          "Fragen zum Datenschutz richten Sie bitte an: <b>pilik.medtracker@gmail.com</b>",
+        agree: "Durch die Nutzung von Pilik stimmen Sie dieser Datenschutzerklärung zu.",
+        footer: "© 2025 Pilik – Medikamenten-Tracker. Alle Rechte vorbehalten."
+      },
+      it: {
+        title: "Informativa sulla privacy",
+        effective: "Data di entrata in vigore: 16 ottobre 2025",
+        intro:
+          'La tua privacy è importante. Questa informativa spiega come <b>Pilik – tracker assunzione farmaci</b> gestisce le informazioni. Garantiamo protezione e trasparenza.',
+        s1t: "1. Dati che non raccogliamo",
+        s1p:
+          "Pilik <b>non raccoglie, non archivia e non condivide</b> dati personali. Non è richiesto alcun account, nome o e-mail.",
+        s2t: "2. Archiviazione locale dei dati",
+        s2p:
+          "Tutti i piani, promemoria e note sono salvati <b>localmente sul dispositivo</b>. I dati non lasciano mai il telefono né vengono inviati a server o cloud. Puoi rimuovere tutto eliminando l’app.",
+        s3t: "3. Nessuna connessione Internet richiesta",
+        s3p:
+          "Pilik funziona completamente offline. Nessuna sincronizzazione, backup o invio di dati a terzi.",
+        s4t: "4. Nessun tracciamento o analisi",
+        s4p:
+          "Non utilizziamo strumenti di analytics, SDK di terze parti o tecnologie di tracciamento. L’app non monitora il comportamento né gli identificatori del dispositivo.",
+        s5t: "5. Notifiche",
+        s5p:
+          "Pilik usa notifiche locali per ricordarti le assunzioni agli orari impostati. Sono gestite solo sul dispositivo.",
+        s6t: "6. Autorizzazioni",
+        s6p: "L’app può richiedere autorizzazioni limitate come:",
+        s6list: ["<b>Notifiche</b> – per inviare promemoria locali sui farmaci."],
+        s6p2:
+          "Le autorizzazioni sono facoltative e gestibili dalle impostazioni del dispositivo.",
+        s7t: "7. Privacy dei minori",
+        s7p:
+          "Pilik è adatto a tutte le età e non raccoglie consapevolmente dati personali.",
+        s8t: "8. Modifiche alla presente informativa",
+        s8p:
+          "Eventuali modifiche saranno riportate in questo documento. Non ridurremo la protezione senza il tuo consenso.",
+        s9t: "9. Contatti",
+        s9p:
+          "Per domande sulla privacy contattaci: <b>pilik.medtracker@gmail.com</b>",
+        agree: "Utilizzando Pilik accetti la presente Informativa sulla privacy.",
+        footer: "© 2025 Pilik – tracker assunzione farmaci. Tutti i diritti riservati."
+      },
+      pl: {
+        title: "Polityka prywatności",
+        effective: "Data wejścia w życie: 16 października 2025 r.",
+        intro:
+          'Twoja prywatność jest dla nas ważna. Niniejsza Polityka wyjaśnia, w jaki sposób <b>Pilik – przypominacz leków</b> przetwarza informacje. Zapewniamy przejrzystość i ochronę danych.',
+        s1t: "1. Jakich danych nie zbieramy",
+        s1p:
+          "Pilik <b>nie zbiera, nie przechowuje ani nie udostępnia</b> danych osobowych. Aplikacja nie wymaga zakładania konta ani podawania imienia czy e-maila.",
+        s2t: "2. Lokalny zapis danych",
+        s2p:
+          "Wszystkie harmonogramy, przypomnienia i notatki są przechowywane <b>lokalnie na urządzeniu</b>. Dane nie opuszczają telefonu i nie są wysyłane na serwery lub do chmury. Możesz je usunąć, odinstalowując aplikację.",
+        s3t: "3. Brak wymaganego internetu",
+        s3p:
+          "Pilik działa całkowicie offline. Nie wykonuje synchronizacji, kopii zapasowych ani przesyłania danych do stron trzecich.",
+        s4t: "4. Bez śledzenia i analityki",
+        s4p:
+          "Nie używamy narzędzi analitycznych, zewnętrznych SDK ani technologii śledzących. Aplikacja nie monitoruje zachowań ani identyfikatorów urządzenia.",
+        s5t: "5. Powiadomienia",
+        s5p:
+          "Pilik korzysta z lokalnych powiadomień, aby przypominać o lekach w ustawionym czasie. Są one tworzone i obsługiwane wyłącznie na urządzeniu.",
+        s6t: "6. Uprawnienia",
+        s6p: "Aplikacja może poprosić o ograniczone uprawnienia:",
+        s6list: ["<b>Powiadomienia</b> – do wysyłania lokalnych przypomnień o lekach."],
+        s6p2:
+          "Uprawnieniami zarządzasz w ustawieniach urządzenia i są one opcjonalne.",
+        s7t: "7. Prywatność dzieci",
+        s7p:
+          "Aplikacja jest odpowiednia dla użytkowników w każdym wieku i nie zbiera świadomie danych osobowych.",
+        s8t: "8. Zmiany w Polityce",
+        s8p:
+          "Wszelkie zmiany będą publikowane w tym dokumencie. Nie obniżymy poziomu ochrony bez Twojej zgody.",
+        s9t: "9. Kontakt",
+        s9p:
+          "Pytania dotyczące prywatności prosimy kierować na: <b>pilik.medtracker@gmail.com</b>",
+        agree: "Korzystając z Pilik, akceptujesz niniejszą Politykę prywatności.",
+        footer: "© 2025 Pilik – przypominacz leków. Wszelkie prawa zastrzeżone."
+      },
       ru: {
         title: "Политика конфиденциальности",
         effective: "Дата вступления в силу: 16 октября 2025 г.",
@@ -224,91 +450,95 @@
         agree: "Используя Pilik, вы соглашаетесь с данной Политикой конфиденциальности.",
         footer: "© 2025 Pilik – трекер приёма лекарств. Все права защищены."
       },
-      uk: {
-        title: "Політика конфіденційності",
-        effective: "Дата набуття чинності: 16 жовтня 2025 р.",
+      es: {
+        title: "Política de privacidad",
+        effective: "Fecha de vigencia: 16 de octubre de 2025",
         intro:
-          'Ми дуже серйозно ставимося до вашої приватності. Ця Політика пояснює, як <b>Pilik – трекер прийому ліків</b> обробляє вашу інформацію. Ми гарантуємо прозорість і захист ваших даних.',
-        s1t: "1. Які дані ми не збираємо",
+          'Tu privacidad es muy importante. Esta política explica cómo <b>Pilik – recordatorio de medicación</b> maneja tu información. Garantizamos protección y transparencia.',
+        s1t: "1. Información que no recopilamos",
         s1p:
-          "Pilik <b>не збирає, не зберігає і не передає</b> жодні персональні дані. Додаток не потребує створення облікового запису, вказання імені, e-mail тощо.",
-        s2t: "2. Локальне зберігання даних",
+          "Pilik <b>no recopila, almacena ni comparte</b> datos personales. La app no requiere cuenta, nombre, correo electrónico ni otros datos.",
+        s2t: "2. Almacenamiento local de datos",
         s2p:
-          "Усі розклади, нагадування та нотатки зберігаються <b>лише на вашому пристрої</b>. Дані не передаються на сервери та не синхронізуються з хмарою. Ви можете видалити всі дані, видаливши застосунок з пристрою.",
-        s3t: "3. Без підключення до інтернету",
+          "Todos los horarios, recordatorios y notas se guardan <b>localmente en tu dispositivo</b>. Tus datos no salen del teléfono ni se envían a servidores o la nube. Puedes eliminarlos desinstalando la app.",
+        s3t: "3. No se requiere conexión a Internet",
         s3p:
-          "Pilik працює повністю офлайн. Застосунок не виконує синхронізацію, резервне копіювання і не надсилає дані третім сторонам.",
-        s4t: "4. Без трекінгу та аналітики",
+          "Pilik funciona completamente sin conexión. No sincroniza, no realiza copias de seguridad ni envía datos a terceros.",
+        s4t: "4. Sin seguimiento ni analíticas",
         s4p:
-          "Ми не використовуємо аналітичні сервіси, сторонні SDK або технології відстеження. Додаток не збирає поведінкові метрики чи ідентифікатори пристрою.",
-        s5t: "5. Сповіщення",
+          "No usamos herramientas de analítica, SDK de terceros ni tecnologías de rastreo. La app no supervisa tu comportamiento ni identificadores del dispositivo.",
+        s5t: "5. Notificaciones",
         s5p:
-          "Pilik використовує локальні сповіщення для нагадувань у встановлений вами час. Ці нагадування створюються та обробляються лише на пристрої і не проходять через зовнішні сервери.",
-        s6t: "6. Дозволи",
-        s6p: "Застосунок може запитати обмежені дозволи:",
-        s6list: ["<b>Сповіщення</b> — для надсилання локальних нагадувань про прийом ліків."],
+          "Pilik usa notificaciones locales para recordarte la toma a la hora configurada. Se crean y gestionan solo en tu dispositivo.",
+        s6t: "6. Permisos",
+        s6p: "La app puede solicitar permisos limitados, como:",
+        s6list: ["<b>Notificaciones</b> – para enviar recordatorios locales de medicación."],
         s6p2:
-          "Усі дозволи необов’язкові та повністю контролюються вами у налаштуваннях пристрою.",
-        s7t: "7. Конфіденційність дітей",
+          "Estos permisos son opcionales y los controlas desde los ajustes del dispositivo.",
+        s7t: "7. Privacidad de menores",
         s7p:
-          "Pilik підходить користувачам будь-якого віку та свідомо не збирає персональні дані — ні у дітей, ні у дорослих.",
-        s8t: "8. Зміни цієї Політики",
+          "Pilik es apto para todas las edades y no recopila conscientemente datos personales.",
+        s8t: "8. Cambios en esta política",
         s8p:
-          "Усі зміни буде відображено в цьому документі. Ми не вноситимемо правок, що знижують рівень захисту вашої приватності, без вашої згоди.",
-        s9t: "9. Контакти",
+          "Cualquier cambio se reflejará en este documento. No reduciremos la protección de tu privacidad sin tu consentimiento.",
+        s9t: "9. Contacto",
         s9p:
-          "З питаннями щодо приватності звертайтесь: <b>pilik.medtracker@gmail.com</b>",
-        agree: "Користуючись Pilik, ви погоджуєтеся з цією Політикою конфіденційності.",
-        footer: "© 2025 Pilik – трекер прийому ліків. Усі права захищено."
+          "Si tienes preguntas sobre la privacidad, escribe a: <b>pilik.medtracker@gmail.com</b>",
+        agree: "Al usar Pilik, aceptas esta política de privacidad.",
+        footer: "© 2025 Pilik – recordatorio de medicación. Todos los derechos reservados."
       }
     };
 
-    const el = id => document.getElementById(id);
+    const $ = id => document.getElementById(id);
 
     function render(lang){
       const L = T[lang] || T.en;
-      el('title').textContent = L.title;
-      el('effective').textContent = L.effective;
-      el('intro').innerHTML = L.intro;
 
-      el('s1t').textContent = L.s1t;
-      el('s1p').innerHTML = L.s1p;
+      $("title").textContent = L.title;
+      $("effective").textContent = L.effective;
+      $("intro").innerHTML = L.intro;
 
-      el('s2t').textContent = L.s2t;
-      el('s2p').innerHTML = L.s2p;
+      $("s1t").textContent = L.s1t;
+      $("s1p").innerHTML = L.s1p;
 
-      el('s3t').textContent = L.s3t;
-      el('s3p').textContent = L.s3p;
+      $("s2t").textContent = L.s2t;
+      $("s2p").innerHTML = L.s2p;
 
-      el('s4t').textContent = L.s4t;
-      el('s4p').textContent = L.s4p;
+      $("s3t").textContent = L.s3t;
+      $("s3p").textContent = L.s3p;
 
-      el('s5t').textContent = L.s5t;
-      el('s5p').textContent = L.s5p;
+      $("s4t").textContent = L.s4t;
+      $("s4p").textContent = L.s4p;
 
-      el('s6t').textContent = L.s6t;
-      el('s6p').textContent = L.s6p;
+      $("s5t").textContent = L.s5t;
+      $("s5p").textContent = L.s5p;
 
-      const list = el('s6list');
+      $("s6t").textContent = L.s6t;
+      $("s6p").textContent = L.s6p;
+
+      const list = $("s6list");
       list.innerHTML = "";
-      L.s6list.forEach(li => {
-        const item = document.createElement('li');
-        item.innerHTML = li;
-        list.appendChild(item);
+      L.s6list.forEach(html => {
+        const li = document.createElement("li");
+        li.innerHTML = html;
+        list.appendChild(li);
       });
-      el('s6p2').textContent = L.s6p2;
+      $("s6p2").textContent = L.s6p2;
 
-      el('s7t').textContent = L.s7t;
-      el('s7p').textContent = L.s7p;
+      $("s7t").textContent = L.s7t;
+      $("s7p").textContent = L.s7p;
 
-      el('s8t').textContent = L.s8t;
-      el('s8p').textContent = L.s8p;
+      $("s8t").textContent = L.s8t;
+      $("s8p").textContent = L.s8p;
 
-      el('s9t').textContent = L.s9t;
-      el('s9p').innerHTML = L.s9p;
+      $("s9t").textContent = L.s9t;
+      $("s9p").innerHTML = L.s9p;
 
-      el('agree').textContent = L.agree;
-      el('footerNote').textContent = L.footer;
+      $("agree").textContent = L.agree;
+      $("footerNote").textContent = L.footer;
+
+      // update <html lang="">
+      document.documentElement.lang = lang;
       document.title = `${L.title} – Pilik`;
     }
 
@@ -317,7 +547,7 @@
     // Support ?lang=xx
     const params = new URLSearchParams(location.search);
     const urlLang = params.get('lang');
-    const browserLang = navigator.language.slice(0,2);
+    const browserLang = navigator.language.slice(0,2).toLowerCase();
     const defaultLang = T[browserLang] ? browserLang : 'en';
     const active = T[urlLang] ? urlLang : defaultLang;
 
