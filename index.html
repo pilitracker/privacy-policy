@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy – Pilik</title>
+  <style>
+    :root{
+      --bg:#0e1624;
+      --card:#1b2536;
+      --text:#fff;
+      --muted:#b5becd;
+      --body:#cfd6e3;
+      --accent:#34c759;
+    }
+    body{
+      font-family:-apple-system-rounded,"SF Pro Rounded","SF Pro Display","SF Pro Text",-apple-system,BlinkMacSystemFont,sans-serif;
+      background-color:var(--bg);
+      color:var(--text);
+      margin:0;
+      padding:0;
+    }
+    header{
+      position:relative;
+      text-align:center;
+      padding:40px 20px 24px;
+    }
+    header img{
+      width:72px;height:72px;border-radius:18px;margin-bottom:16px;
+    }
+    header h1{
+      font-size:26px;font-weight:700;margin:0;
+    }
+    header p{
+      font-size:15px;color:var(--muted);margin-top:4px;
+    }
+    .language-select{
+      position:absolute; top:16px; right:16px;
+    }
+    .language-select select{
+      background:var(--card); color:#fff;
+      border:1px solid #2a354a; border-radius:12px;
+      padding:8px 28px 8px 12px; font-size:14px;
+      appearance:none; outline:none; cursor:pointer;
+    }
+    .language-select::after{
+      content:"▼"; position:absolute; right:10px; top:9px;
+      font-size:10px; color:#fff; pointer-events:none;
+    }
+
+    main{max-width:680px;margin:0 auto;padding:0 20px 80px;}
+    h2{
+      font-size:19px;margin:28px 0 10px;color:var(--accent);font-weight:600;
+    }
+    p{font-size:15px;color:var(--body);line-height:1.6;margin-bottom:14px;}
+    ul{padding-left:20px;color:var(--body);margin:0 0 14px}
+    li{margin-bottom:10px;font-size:15px;line-height:1.5;}
+
+    footer{
+      text-align:center;color:#778196;font-size:13px;padding:40px 0 20px;
+      border-top:1px solid rgba(255,255,255,.06);
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="language-select">
+      <select id="langSelect" aria-label="Language">
+        <option value="en">EN</option>
+        <option value="ru">RU</option>
+        <option value="uk">UK</option>
+      </select>
+    </div>
+
+    <img src="pill_icon.png" alt="Pilik App Logo" />
+    <h1 id="title">Privacy Policy</h1>
+    <p id="effective">Effective Date: October 16, 2025</p>
+  </header>
+
+  <main>
+    <p id="intro">
+      Your privacy is very important to us. This Privacy Policy explains how <b>Pilik – Medication Tracker</b> handles your information.
+      We are committed to protecting your privacy and ensuring transparency about how your data is managed.
+    </p>
+
+    <h2 id="s1t">1. Information We Do Not Collect</h2>
+    <p id="s1p">
+      Pilik does <b>not collect, store, or share</b> any personal information.
+      The app does not require you to create an account, provide your name, email, or any personal details.
+    </p>
+
+    <h2 id="s2t">2. Local Data Storage</h2>
+    <p id="s2p">
+      All medication schedules, reminders, and notes you create are stored <b>locally on your device</b>.
+      Your data never leaves your phone and is not transmitted to any external servers or cloud services.
+      You can remove all app data by deleting the application from your device.
+    </p>
+
+    <h2 id="s3t">3. No Internet Connection Required</h2>
+    <p id="s3p">
+      Pilik is designed to work completely offline.
+      It does not use the internet to sync, back up, or send any data to third parties.
+    </p>
+
+    <h2 id="s4t">4. No Tracking or Analytics</h2>
+    <p id="s4p">
+      We do not use analytics tools, third-party SDKs, or tracking technologies of any kind.
+      The app does not monitor user behavior, usage patterns, or device identifiers.
+    </p>
+
+    <h2 id="s5t">5. Notifications</h2>
+    <p id="s5p">
+      Pilik uses local notifications to remind you to take your medications at the times you set.
+      These reminders are created and managed solely on your device and never sent through external servers.
+    </p>
+
+    <h2 id="s6t">6. Permissions</h2>
+    <p id="s6p">The app may request limited permissions such as:</p>
+    <ul id="s6list">
+      <li><b>Notifications</b> – to send local medication reminders.</li>
+    </ul>
+    <p id="s6p2">These permissions are optional and fully controlled by you through your device settings.</p>
+
+    <h2 id="s7t">7. Children’s Privacy</h2>
+    <p id="s7p">
+      Pilik is suitable for users of all ages and does not knowingly collect any personal data from children or adults.
+    </p>
+
+    <h2 id="s8t">8. Changes to This Policy</h2>
+    <p id="s8p">
+      If we make any changes to this Privacy Policy, they will be reflected in this document.
+      We will not make changes that reduce your privacy protections without your consent.
+    </p>
+
+    <h2 id="s9t">9. Contact</h2>
+    <p id="s9p">
+      If you have any questions about this Privacy Policy or how your information is handled,
+      you can contact us at: <b>pilik.medtracker@gmail.com</b>
+    </p>
+
+    <p id="agree">
+      By using Pilik – Medication Tracker, you agree to this Privacy Policy.
+    </p>
+  </main>
+
+  <footer id="footerNote">
+    © 2025 Pilik – Medication Tracker. All rights reserved.
+  </footer>
+
+  <script>
+    const T = {
+      en: {
+        title: "Privacy Policy",
+        effective: "Effective Date: October 16, 2025",
+        intro:
+          'Your privacy is very important to us. This Privacy Policy explains how <b>Pilik – Medication Tracker</b> handles your information. We are committed to protecting your privacy and ensuring transparency about how your data is managed.',
+        s1t: "1. Information We Do Not Collect",
+        s1p:
+          "Pilik does <b>not collect, store, or share</b> any personal information. The app does not require you to create an account, provide your name, email, or any personal details.",
+        s2t: "2. Local Data Storage",
+        s2p:
+          "All medication schedules, reminders, and notes you create are stored <b>locally on your device</b>. Your data never leaves your phone and is not transmitted to any external servers or cloud services. You can remove all app data by deleting the application from your device.",
+        s3t: "3. No Internet Connection Required",
+        s3p:
+          "Pilik is designed to work completely offline. It does not use the internet to sync, back up, or send any data to third parties.",
+        s4t: "4. No Tracking or Analytics",
+        s4p:
+          "We do not use analytics tools, third-party SDKs, or tracking technologies of any kind. The app does not monitor user behavior, usage patterns, or device identifiers.",
+        s5t: "5. Notifications",
+        s5p:
+          "Pilik uses local notifications to remind you to take your medications at the times you set. These reminders are created and managed solely on your device and never sent through external servers.",
+        s6t: "6. Permissions",
+        s6p: "The app may request limited permissions such as:",
+        s6list: ["<b>Notifications</b> – to send local medication reminders."],
+        s6p2:
+          "These permissions are optional and fully controlled by you through your device settings.",
+        s7t: "7. Children’s Privacy",
+        s7p:
+          "Pilik is suitable for users of all ages and does not knowingly collect any personal data from children or adults.",
+        s8t: "8. Changes to This Policy",
+        s8p:
+          "If we make any changes to this Privacy Policy, they will be reflected in this document. We will not make changes that reduce your privacy protections without your consent.",
+        s9t: "9. Contact",
+        s9p:
+          "If you have any questions about this Privacy Policy or how your information is handled, you can contact us at: <b>pilik.medtracker@gmail.com</b>",
+        agree: "By using Pilik – Medication Tracker, you agree to this Privacy Policy.",
+        footer: "© 2025 Pilik – Medication Tracker. All rights reserved."
+      },
+      ru: {
+        title: "Политика конфиденциальности",
+        effective: "Дата вступления в силу: 16 октября 2025 г.",
+        intro:
+          'Ваша конфиденциальность для нас очень важна. В этом документе объясняется, как <b>Pilik – трекер приёма лекарств</b> обрабатывает вашу информацию. Мы обеспечиваем прозрачность и защищаем вашу приватность.',
+        s1t: "1. Каких данных мы не собираем",
+        s1p:
+          "Pilik <b>не собирает, не хранит и не передаёт</b> персональные данные. Приложение не требует регистрации, указания имени, e-mail или иных сведений.",
+        s2t: "2. Локальное хранение данных",
+        s2p:
+          "Все расписания приёма, напоминания и заметки хранятся <b>только на вашем устройстве</b>. Данные не отправляются на серверы и не синхронизируются с облаком. Вы можете удалить все данные, удалив приложение с устройства.",
+        s3t: "3. Без подключения к интернету",
+        s3p:
+          "Pilik работает полностью офлайн. Приложение не выполняет синхронизацию, резервное копирование и не передаёт данные третьим лицам.",
+        s4t: "4. Без трекинга и аналитики",
+        s4p:
+          "Мы не используем аналитические сервисы, сторонние SDK и технологии отслеживания. Приложение не собирает поведенческие метрики и идентификаторы устройства.",
+        s5t: "5. Уведомления",
+        s5p:
+          "Pilik использует локальные уведомления для напоминаний о приёме в заданное вами время. Эти уведомления создаются и обрабатываются исключительно на устройстве и не проходят через внешние серверы.",
+        s6t: "6. Разрешения",
+        s6p: "Приложение может запросить ограниченные разрешения:",
+        s6list: ["<b>Уведомления</b> — чтобы отправлять локальные напоминания о приёме лекарств."],
+        s6p2:
+          "Все разрешения являются необязательными и управляются вами в настройках устройства.",
+        s7t: "7. Дети",
+        s7p:
+          "Приложение подходит пользователям любого возраста и не собирает персональные данные намеренно — ни у детей, ни у взрослых.",
+        s8t: "8. Изменения политики",
+        s8p:
+          "Любые изменения будут отражены в этом документе. Мы не будем вносить правки, снижающие уровень защиты вашей приватности, без вашего согласия.",
+        s9t: "9. Контакты",
+        s9p:
+          "По вопросам приватности и обработки данных пишите на: <b>pilik.medtracker@gmail.com</b>",
+        agree: "Используя Pilik, вы соглашаетесь с данной Политикой конфиденциальности.",
+        footer: "© 2025 Pilik – трекер приёма лекарств. Все права защищены."
+      },
+      uk: {
+        title: "Політика конфіденційності",
+        effective: "Дата набуття чинності: 16 жовтня 2025 р.",
+        intro:
+          'Ми дуже серйозно ставимося до вашої приватності. Ця Політика пояснює, як <b>Pilik – трекер прийому ліків</b> обробляє вашу інформацію. Ми гарантуємо прозорість і захист ваших даних.',
+        s1t: "1. Які дані ми не збираємо",
+        s1p:
+          "Pilik <b>не збирає, не зберігає і не передає</b> жодні персональні дані. Додаток не потребує створення облікового запису, вказання імені, e-mail тощо.",
+        s2t: "2. Локальне зберігання даних",
+        s2p:
+          "Усі розклади, нагадування та нотатки зберігаються <b>лише на вашому пристрої</b>. Дані не передаються на сервери та не синхронізуються з хмарою. Ви можете видалити всі дані, видаливши застосунок з пристрою.",
+        s3t: "3. Без підключення до інтернету",
+        s3p:
+          "Pilik працює повністю офлайн. Застосунок не виконує синхронізацію, резервне копіювання і не надсилає дані третім сторонам.",
+        s4t: "4. Без трекінгу та аналітики",
+        s4p:
+          "Ми не використовуємо аналітичні сервіси, сторонні SDK або технології відстеження. Додаток не збирає поведінкові метрики чи ідентифікатори пристрою.",
+        s5t: "5. Сповіщення",
+        s5p:
+          "Pilik використовує локальні сповіщення для нагадувань у встановлений вами час. Ці нагадування створюються та обробляються лише на пристрої і не проходять через зовнішні сервери.",
+        s6t: "6. Дозволи",
+        s6p: "Застосунок може запитати обмежені дозволи:",
+        s6list: ["<b>Сповіщення</b> — для надсилання локальних нагадувань про прийом ліків."],
+        s6p2:
+          "Усі дозволи необов’язкові та повністю контролюються вами у налаштуваннях пристрою.",
+        s7t: "7. Конфіденційність дітей",
+        s7p:
+          "Pilik підходить користувачам будь-якого віку та свідомо не збирає персональні дані — ні у дітей, ні у дорослих.",
+        s8t: "8. Зміни цієї Політики",
+        s8p:
+          "Усі зміни буде відображено в цьому документі. Ми не вноситимемо правок, що знижують рівень захисту вашої приватності, без вашої згоди.",
+        s9t: "9. Контакти",
+        s9p:
+          "З питаннями щодо приватності звертайтесь: <b>pilik.medtracker@gmail.com</b>",
+        agree: "Користуючись Pilik, ви погоджуєтеся з цією Політикою конфіденційності.",
+        footer: "© 2025 Pilik – трекер прийому ліків. Усі права захищено."
+      }
+    };
+
+    const el = id => document.getElementById(id);
+
+    function render(lang){
+      const L = T[lang] || T.en;
+      el('title').textContent = L.title;
+      el('effective').textContent = L.effective;
+      el('intro').innerHTML = L.intro;
+
+      el('s1t').textContent = L.s1t;
+      el('s1p').innerHTML = L.s1p;
+
+      el('s2t').textContent = L.s2t;
+      el('s2p').innerHTML = L.s2p;
+
+      el('s3t').textContent = L.s3t;
+      el('s3p').textContent = L.s3p;
+
+      el('s4t').textContent = L.s4t;
+      el('s4p').textContent = L.s4p;
+
+      el('s5t').textContent = L.s5t;
+      el('s5p').textContent = L.s5p;
+
+      el('s6t').textContent = L.s6t;
+      el('s6p').textContent = L.s6p;
+
+      const list = el('s6list');
+      list.innerHTML = "";
+      L.s6list.forEach(li => {
+        const item = document.createElement('li');
+        item.innerHTML = li;
+        list.appendChild(item);
+      });
+      el('s6p2').textContent = L.s6p2;
+
+      el('s7t').textContent = L.s7t;
+      el('s7p').textContent = L.s7p;
+
+      el('s8t').textContent = L.s8t;
+      el('s8p').textContent = L.s8p;
+
+      el('s9t').textContent = L.s9t;
+      el('s9p').innerHTML = L.s9p;
+
+      el('agree').textContent = L.agree;
+      el('footerNote').textContent = L.footer;
+      document.title = `${L.title} – Pilik`;
+    }
+
+    const selector = document.getElementById('langSelect');
+
+    // Support ?lang=xx
+    const params = new URLSearchParams(location.search);
+    const urlLang = params.get('lang');
+    const browserLang = navigator.language.slice(0,2);
+    const defaultLang = T[browserLang] ? browserLang : 'en';
+    const active = T[urlLang] ? urlLang : defaultLang;
+
+    render(active);
+    selector.value = active;
+    selector.addEventListener('change', e => render(e.target.value));
+  </script>
+</body>
+</html>
